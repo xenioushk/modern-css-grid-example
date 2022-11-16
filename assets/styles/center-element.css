@@ -1,0 +1,12 @@
+.my-element {
+  max-width: 900px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: lightblue;
+  padding: 20px;
+  display: grid;
+}
+
+.center-me {
+  margin: auto;
+}
