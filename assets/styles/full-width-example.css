@@ -1,0 +1,7 @@
+.full-width-example {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+}
