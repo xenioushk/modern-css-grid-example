@@ -1,0 +1,12 @@
+.responsive-grid {
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.responsive-grid .item {
+  background-color: lightblue;
+  padding: 20px;
+}
