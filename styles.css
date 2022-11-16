@@ -1,0 +1,53 @@
+.parent {
+  padding: 20px;
+  display: grid;
+  /* grid-template-columns: 400px 1fr 1fr; */
+  /* grid-template-columns: 50% 1fr 1fr; */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: 20px;
+  row-gap: 20px; */
+  gap: 20px;
+}
+
+.item {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 12px;
+}
+
+.two_rows {
+  clear: both;
+}
+
+.two_rows .item:nth-child(1) {
+  grid-row: span 2; /*Default is span 1*/
+  font-size: 16px;
+  display: grid;
+  align-content: center;
+}
+
+/* Example: Center Me */
+
+.example-banner {
+  max-width: 900px;
+  height: 300px;
+  margin: 0 auto 20px auto;
+  background-color: blanchedalmond;
+  display: grid;
+}
+
+.center-me {
+  margin: auto;
+  color: blue;
+  font-size: 32px;
+}
+
+/* Full Width background */
+
+.full-width-example {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+  background-color: yellow;
+  padding: 20px;
+}

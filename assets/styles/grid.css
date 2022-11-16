@@ -1,0 +1,23 @@
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Three columns */
+  gap: 20px; /*It creates gap between row and column*/
+}
+
+.container-grid.cols-two {
+  grid-template-columns: 1fr 1fr; /* Three columns */
+}
+
+.container-grid.cols-three {
+  grid-template-columns: 1fr 1fr 1fr; /* Three columns */
+}
+
+.container-grid.cols-four {
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Three columns */
+}
+
+.item {
+  background: lightgoldenrodyellow;
+  color: black;
+  padding: 20px;
+}
