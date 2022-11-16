@@ -21,3 +21,14 @@
   color: black;
   padding: 20px;
 }
+
+.first-child-two-rows {
+  clear: both;
+}
+
+.first-child-two-rows .item:first-child {
+  background-color: tomato;
+  display: grid;
+  grid-row: span 2;
+  align-content: center; /*This will going to put the content middle of the grid*/
+}
